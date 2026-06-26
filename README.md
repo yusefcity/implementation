@@ -1,5 +1,5 @@
 # implementation
-This repository is dedicated to the research and implementation of decentralized infrastructure with an emphasis on modular blockchain engineering, transaction reliability, and protocol interoperability. Rather than focusing on a single application, the project provides reusable components that simplify integration with distributed ledger environments while maintaining flexibility for future extensions.
+Is dedicated to the research and implementation of decentralized infrastructure with an emphasis on modular blockchain engineering, transaction reliability, and protocol interoperability. Rather than focusing on a single application, the project provides reusable components that simplify integration with distributed ledger environments while maintaining flexibility for future extensions.
 
 The architecture has been designed around a layered development model where networking, account management, transaction processing, and contract interaction remain logically separated. This approach enables contributors to improve individual modules without affecting the overall framework. Particular attention is given to the role of **eth** transaction handling, deterministic execution, and compatibility with evolving blockchain standards.
 
