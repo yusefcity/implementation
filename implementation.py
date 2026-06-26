@@ -120,5 +120,26 @@ def main():
     if not signer.web3.is_connected():
         raise RuntimeError("RPC connection failed")
 
+    transaction = signer.build_transaction()
+
+    signed = signer.sign(
+        transaction
+    )
+
+    print(
+        json.dumps(
+            signer.report(signed),
+            indent=2
+        )
+    )
+
+    # Optional broadcast
+    # tx_hash = signer.web3.eth.send_raw_transaction(
+    #     signed.raw_transaction
+    # )
+    # print(tx_hash.hex())
+
+
+if __name__ == "__main__":
     main()
 ```
